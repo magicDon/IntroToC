@@ -1,0 +1,32 @@
+//Created by Donjana Allgood for C++ programming 
+#include <iostream>
+#include <cmath> 
+using namespace std; 
+int main()
+{
+	cout << "Distance Converter" << endl << endl;
+	
+	//Miles to Km
+	// Km means Kilometer 
+	cout << "To convert miles to kilometers\n";
+	cout << "Please Enter Miles:\n ";
+	double miles;
+	cin >> miles;
+	//Convert miles to kilometers by multiplying the number of miles by 1.61
+	double kilometers = miles * 1.61;
+	// output value 
+	cout << "Kilometers: "; 
+	cin >> kilometers; 
+	//To find km to miles 
+	cout << "To convert Kilometer to miles\n"; 
+	cout << "Please Enter Kilometers: "; 
+	
+	cin >> kilometers; 
+
+	//Convert Kilometers to miles by dividing the number of kilometers by 1.61 
+	 miles = kilometers / 1.61; 
+	//output value 
+	cout << "Miles: " << miles << endl << endl; 
+
+	return 0;
+}
