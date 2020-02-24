@@ -1,0 +1,33 @@
+/*
+Created by Donjana Allgood 
+Purpose: This program uses servings and calories inputted by user. To calulate and display the total calories. 
+*
+*/
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+	cout << "Calorie Calculator\n\n";
+
+	//User input serving amount for one food item 
+	double servings;
+	cout << "Please enter the servings amount:";
+	cin >> servings;
+// user input calorie amount for the same food item
+double calories; 
+cout << "Please enter the calorie amount: "; 
+cin >> calories; 
+ 
+ //calulate the total amount by mulitplying the food servings and calories
+ double total_calories = servings * calories; 
+  
+ //ouput and display the total calories 
+ cout << "The total calories: "<< total_calories << endl << endl; 
+ 
+	return 0;
+}
