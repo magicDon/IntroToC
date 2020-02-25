@@ -1,0 +1,25 @@
+/**Created by Donjana Allgood 
+Purpose: To calculate the total for the user by adding, subtraction, divison or multiplication*/
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+int main()
+{
+cout << "Welcome to your calculate:\n"; 
+int a; 
+int b; 
+int sum; 
+
+cout <<"Please enter a number: "; 
+cin >> a;
+
+cout <<"Please enter another number: ";
+cin >> b; 
+
+sum = a + b; 
+cout <<"The sum of those numbers is " << sum << endl; 
+
+
+    return 0;
+}
